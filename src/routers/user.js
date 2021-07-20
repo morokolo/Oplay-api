@@ -1,9 +1,10 @@
-const express = require('express')
-const router = new express.Router()
+/** @format */
 
-router.get('/', async (req, res) => {
-  res.send('Hello World! This is Oplay')
-})
+const express = require("express");
+const router = new express.Router();
 
-module.exports = router
-  
+router.get("/", async (req, res) => {
+  res.send("Hello World! This is Oplay");
+});
+
+module.exports = router;
